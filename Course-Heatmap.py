@@ -58,8 +58,7 @@ def isPerfect(N):
 # Function to find the closest perfect square  
 # taking minimum steps to reach from a number  
 def getClosestPerfectSquare(N): 
-    if (isPerfect(N)):  
-        print(N, "0")  
+    if (isPerfect(N)):   
         return
   
     # Variables to store first perfect  
@@ -125,11 +124,11 @@ gpa2 = df_ECE_New['GPA'].tolist()
 
 
 n, m = getClosestPerfectSquare(len(gpa))
-print(n, m)
+
 if(len(gpa) > n):
     m = int(sqrt(n)) - m
 n = int(sqrt(n))
-print(n, m)
+
 
 #pad until we hit m 
 for i in range(m):
