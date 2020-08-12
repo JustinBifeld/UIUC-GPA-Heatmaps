@@ -113,9 +113,10 @@ df_New = df_New.loc[df_New['Year'] == 2019] #get all 2019 data
 subjects = df_New['Subject'].unique()
 df = CondenseSubjects(df, subjects) #obtain dataframe for all semesters
 df_New = CondenseSubjects(df_New, subjects) #get all 2019 data condensed
-df = df.sort_values(by='Subject', ascending=True) #sort by subject number (low to high)
+df = df.sort_values(by='Subject', ascending=True) #sort by subject (A to B)
 
-subjects = df_New['Subject'].tolist()
+subjects = sorted(df_New['Subject'].tolist())
+print(subjects)
 gpa = df['GPA'].tolist()
 gpa2 = df_New['GPA'].tolist()
 for i in range(3):
