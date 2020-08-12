@@ -1,5 +1,5 @@
 # UIUC-GPA-Heatmaps
-This repository contains scripts to generate Heatmaps representing GPAs of subjects and courses at UIUC.  The data comes from [Wade Fagens github](https://github.com/wadefagen/datasets), specifically using the GPAs of Courses at The University of Illinois, [gpa/uiuc-gpa-dataset.csv](https://github.com/justin02-dev/UIUC-GPA-Heatmaps/blob/master/datasets/gpa/uiuc-gpa-dataset.csv).
+This repository contains scripts to generate Heatmaps representing GPAs of subjects and courses at UIUC.  The data comes from [wadefagens github](https://github.com/wadefagen/datasets), specifically using the GPAs of Courses at The University of Illinois, [gpa/uiuc-gpa-dataset.csv](https://github.com/justin02-dev/UIUC-GPA-Heatmaps/blob/master/datasets/gpa/uiuc-gpa-dataset.csv).
 
 This data set contains the the grade distribution for all courses at the University of Illinois over the past 10 years.  I specifically calculate and analyze the GPA from this dataset, obtaining the average GPA for courses within a subject, or the average GPA for an entire subject such as ECE or ECON.  
 
