@@ -51,7 +51,6 @@ def divide_chunks(l, n):
 #find the closest square to current number of courses and number of padding needed
 #input: number of courses
 #output: size of chunks to break into and padding needed
-
 def isPerfect(N): 
     if (sqrt(N) - floor(sqrt(N)) != 0): 
         return False
