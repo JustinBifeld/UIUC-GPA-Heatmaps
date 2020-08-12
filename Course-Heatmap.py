@@ -123,8 +123,6 @@ numbers = df_ECE_All['Number'].tolist()
 gpa = df_ECE_All['GPA'].tolist()
 gpa2 = df_ECE_New['GPA'].tolist()
 
-n = 8 #need to find n #number of chunks to make
-m = 64 #number of total elements (inlcuding empty) in heatmap
 
 n, m = getClosestPerfectSquare(len(gpa))
 print(n, m)
